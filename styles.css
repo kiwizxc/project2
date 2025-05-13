@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* 黑色背景 */
+    color: #fff; /* 白色字體 */
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222; /* 讓容器背景稍微變亮一些 */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* 白色標題 */
+}
+
+h2, h3 {
+    color: #fff; /* 白色副標題 */
+}
+
+p {
+    line-height: 1.6;
+    color: #ccc; /* 較淺的灰色文字 */
+}
+
+.example-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 40px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>LangChain 實作 1411132032kiwi展示網站</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- MathJax 用於渲染數學公式 -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> LangChain 實作 1411132032kiwi展示網站</h1>
+
+        
+        <section class="text-section">
+            <h2>(一) 利用LangChain實作ChatPDF：問個問題，輕鬆找出文件重點</h2>
+            <p>上次報告已經報告完</p>
+            <h2>(二) 利用 Langchain 實作系列 RAG 進階流程：Query Analysis & Self-reflection</h2>
+            <h3>安裝各種套件</h3>
+            <img src="EX1.png" alt="程式碼照片" class="example-image">
+            <h3>使用Qwen/Qwen-1_8B的模型</h3>
+            <img src="EX2.png" alt="程式碼照片" class="example-image">
+            <h3>測試token可不可以使用</h3>
+            <img src="EX3.png" alt="程式碼照片" class="example-image">
+            <h3>執行</h3>
+            <img src="EX4.png" alt="程式碼照片" class="example-image">
+            <p>'bind_tools是OPEN AI套件無法使用改成下一個程式<p>
+            <img src="EX5.png" alt="程式碼照片" class="example-image">
+            <h3>執行-2</h3>
+            <img src="EX6.png" alt="程式碼照片" class="example-image">
+            <h3>成果</h3>
+            <img src="EX7.png" alt="程式碼照片" class="example-image">
+            </section>
+
+        <!-- 簡單數學 -->
+        <section class="math-section">
+            <h2>(三)利用 LangChain 實作多模態模型的 RAG：除了讀文章也能看圖答題</h2>
+            <h3>安裝各種套件</h3>
+            <img src="EX8.png" alt="程式碼照片" class="example-image">
+            <h3>使用模型Qwen/Qwen-1_8B</h3>
+            <img src="EX9.png" alt="程式碼照片" class="example-image">
+            <h3>使用LLaVA 模型摘要圖片</h3>
+            <p>原本使用Qwen-VL，會出現錯誤（Qwen-VL 不支援 AutoModelForVision2Seq）
+                後來改使用MiniGPT-4也失敗最後改成使用LLaVA<p>
+            <img src="EX10.png" alt="程式碼照片" class="example-image">
+            <h3>建立向量資料庫</h3>
+            <img src="EX11.png" alt="程式碼照片" class="example-image">
+            <p>遇到CUDA out of memory錯誤便沒再繼續下去</p>
+            <img src="EX12.png" alt="程式碼照片" class="example-image">
+        </section>
+
+        
+    </div>
+</body>
+</html>
